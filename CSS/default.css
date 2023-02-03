@@ -69,6 +69,19 @@ h6 { font-size: 16px; }
     min-height: 10em;
 }
 
+.greeting-wrapper h1 {
+    animation: rotate 2s 1s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
